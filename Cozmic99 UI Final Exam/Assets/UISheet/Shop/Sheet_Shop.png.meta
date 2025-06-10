@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -256,6 +256,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Sheet_Shop_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 3
+        width: 61
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bb857fe276b49419b2ab5c5e0a0973
+      internalID: -1589901012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -274,6 +295,7 @@ TextureImporter:
       Sheet_Shop_4: -1007101761
       Sheet_Shop_5: 509230648
       Sheet_Shop_6: -1884192216
+      Sheet_Shop_7: -1589901012
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
