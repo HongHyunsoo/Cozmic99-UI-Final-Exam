@@ -13,10 +13,7 @@ public class StartButtonHandler : MonoBehaviour
     public GameObject Screen_Credit;
     public GameObject Screen_Save;
 
-    public void OnClick()
-    {
-        
-    }
+    
     public void OnStartButtonClicked()
     {
         if (doorAnimator != null && ScreenAnimator != null)
@@ -28,7 +25,7 @@ public class StartButtonHandler : MonoBehaviour
             
             IEnumerator DelayedThing()
             {
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(1.2f);
                 Screen.SetActive(true);
                 Screen_Save.SetActive(true);
             }
@@ -48,7 +45,7 @@ public class StartButtonHandler : MonoBehaviour
 
             IEnumerator DelayedThing()
             {
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(1.2f);
                 Screen.SetActive(true);
                 Screen_Setting.SetActive(true);
             }
@@ -68,7 +65,7 @@ public class StartButtonHandler : MonoBehaviour
 
             IEnumerator DelayedThing()
             {
-                yield return new WaitForSeconds(1.0f);
+                yield return new WaitForSeconds(1.2f);
                 Screen.SetActive(true);
                 Screen_Credit.SetActive(true);
             }
@@ -81,12 +78,24 @@ public class StartButtonHandler : MonoBehaviour
     {
         if (doorAnimator != null && ScreenAnimator != null)
         {
+            StartCoroutine(DelayedThing());
+
             doorAnimator.SetBool("Is Open?", false); //  Bool false로 설정
             ScreenAnimator.SetBool("Is ScreenOpen?", false); //  Bool false로 설정
-            TItleTexts.SetActive(true);  // 여기서 켜짐
+
             Screen_Setting.SetActive(false);
             Screen_Credit.SetActive(false);
             Screen_Save.SetActive(false);
+
+            IEnumerator DelayedThing()
+            {
+                yield return new WaitForSeconds(0.8f);
+                Screen.SetActive(true);
+                TItleTexts.SetActive(true);  // 타이틀 버튼 글씨 여기서 켜짐
+            }
+            
+            
+            
         }
     }
 }

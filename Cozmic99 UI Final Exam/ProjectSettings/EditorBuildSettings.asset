@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Holiday_Planet.unity
+    guid: ea788f9fee005e64a80e1f5b5bd98d53
+  - enabled: 1
+    path: Assets/Scenes/Computer.unity
+    guid: ae09a97c48a2ec24792fd58b8479e317
+  - enabled: 1
+    path: Assets/Scenes/Bedroom.unity
+    guid: a7ca25388b44bfc4f876e3f1dec7d6fa
+  - enabled: 1
+    path: Assets/Scenes/MainScreen.unity
+    guid: e2d7ebd027a93b743acb95f3a268be48
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: af5b1d7d2df1d96429a526dbde7bd8d7
   m_configObjects: {}
