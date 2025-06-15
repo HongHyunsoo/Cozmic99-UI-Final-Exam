@@ -89,7 +89,7 @@ public class StartButtonHandler : MonoBehaviour
 
             IEnumerator DelayedThing()
             {
-                yield return new WaitForSeconds(0.8f);
+                yield return new WaitForSeconds(0.6f);
                 Screen.SetActive(true);
                 TItleTexts.SetActive(true);  // 타이틀 버튼 글씨 여기서 켜짐
             }

@@ -43,9 +43,8 @@ public class Shop_Buttons : MonoBehaviour{
             ReceicptAnimator.SetBool("Is Purchasing ??", false);
             IEnumerator DelayedThing()
             {
+                yield return new WaitForSeconds(1.5f);
                 Receipt.SetActive(false);
-                yield return new WaitForSeconds(1.1f);
-
             }
         }
     }
