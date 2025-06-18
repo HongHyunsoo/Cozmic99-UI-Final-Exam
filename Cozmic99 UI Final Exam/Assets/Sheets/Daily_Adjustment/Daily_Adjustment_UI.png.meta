@@ -113,12 +113,12 @@ TextureImporter:
       name: Daily_Adjustment_UI_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 3
         y: 1
-        width: 150
+        width: 146
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -139,7 +139,7 @@ TextureImporter:
         width: 54
         height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -147,6 +147,27 @@ TextureImporter:
       bones: []
       spriteID: 9b7682efd4415704883f64c0455e082f
       internalID: 1059808084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Daily_Adjustment_UI_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 105
+        width: 146
+        height: 2
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeca555debb1b034d9850eddafd66ddd
+      internalID: 1280221035
       vertices: []
       indices: 
       edges: []
@@ -164,6 +185,7 @@ TextureImporter:
     nameFileIdTable:
       Daily_Adjustment_UI_0: 2080200585
       Daily_Adjustment_UI_1: 1059808084
+      Daily_Adjustment_UI_2: 1280221035
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
