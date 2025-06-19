@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shop.unity
     guid: af5b1d7d2df1d96429a526dbde7bd8d7
+  - enabled: 1
+    path: Assets/Scenes/Daily_Adjustment.unity
+    guid: 3cc9c7d95e5bb2541839050e72c1c036
   m_configObjects: {}

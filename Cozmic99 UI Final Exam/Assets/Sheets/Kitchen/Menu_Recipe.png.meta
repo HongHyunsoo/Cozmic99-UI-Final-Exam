@@ -260,10 +260,10 @@ TextureImporter:
       name: Menu_Recipe_7
       rect:
         serializedVersion: 2
-        x: 241
-        y: 234
-        width: 32
-        height: 19
+        x: 237
+        y: 233
+        width: 40
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,12 +428,12 @@ TextureImporter:
       name: Menu_Recipe_15
       rect:
         serializedVersion: 2
-        x: 241
-        y: 212
-        width: 32
-        height: 19
+        x: 237
+        y: 210
+        width: 40
+        height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,6 +441,153 @@ TextureImporter:
       bones: []
       spriteID: 3b5203b7f10e76a45a36ff1222ad4687
       internalID: 25310283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_16
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 77
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 2, z: 2, w: 2}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ded24ca0039914dbbbb5c83e0b4269
+      internalID: -1152145729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_17
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 30
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f808443eb06fe7440975fefde1b76513
+      internalID: -1967858618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_18
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 77
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bed0f19b2b3afb4c90bb784829d634d
+      internalID: 1578131954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_19
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 110
+        width: 140
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 10, y: 10, z: 10, w: 9}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f26ca981c46697f4c8a9f53071617d75
+      internalID: 408651188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_20
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 53
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ad758aaeb9d444ba5e31103fd01ec7
+      internalID: -3889237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_21
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 53
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9cda8e5699cb54682d8f01556689b8
+      internalID: 1808346612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu_Recipe_22
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 30
+        width: 60
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f62fd0a6ea5ef74e8acc0ba854af7ac
+      internalID: -1866948851
       vertices: []
       indices: 
       edges: []
@@ -464,7 +611,14 @@ TextureImporter:
       Menu_Recipe_13: 1140603744
       Menu_Recipe_14: -1129636196
       Menu_Recipe_15: 25310283
+      Menu_Recipe_16: -1152145729
+      Menu_Recipe_17: -1967858618
+      Menu_Recipe_18: 1578131954
+      Menu_Recipe_19: 408651188
       Menu_Recipe_2: -807999485
+      Menu_Recipe_20: -3889237
+      Menu_Recipe_21: 1808346612
+      Menu_Recipe_22: -1866948851
       Menu_Recipe_3: 338976811
       Menu_Recipe_4: -708815223
       Menu_Recipe_5: 186258141
